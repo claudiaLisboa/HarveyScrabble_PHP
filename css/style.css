@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400;500&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* body */
+body {
+  /*background-color:  #dde4ea;*/
+
+  background-color:#f2f2f2;
+  font-family: 'Catamaran', sans-serif;
+  margin: 0;
+ 
+  
+}
+#pError{
+  font-size: 20px;
+  color: red;
+}
+
+img {
+  border: 1px solid #ddd;
+  text-align: left;
+  border-radius: 8px;
+  padding: 5px;
+  width: 150px;
+}
+
+
+.mainTravail , p, legend {
+  
+  font-family: 'Catamaran Bold', sans-serif;
+  letter-spacing: 1px;
+  color:#273746;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+.mainTravail h1{
+  text-align: center;
+}
+
+/* header logo Title */
+.header {
+  position: relative;
+  width:100%;
+  background-color: #ddd;
+  padding: 1em;
+  letter-spacing: 1px;
+}
+
+/* augmenter la taille de la police du titre; la colour du titre  */
+.header h1{
+  text-align: center;
+  color: black;
+  font-size: 2em;
+}
+.header h2{
+  text-align: center;
+  color:#2E4053;
+
+}
+
+.navbar {
+    background-color: #004d66;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    list-style: none;
+    top: 0;
+    border-radius: 5px;
+  }
+  
+  /* styliser les liens de la barre de navigation */
+  .navbar a {
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 18px;
+    display: block;
+    color: #ffffff;
+    padding: 1em;
+    margin: 3px;
+    border-radius: 5px;
+    
+  }
+  
+  /* changer de couleur au hover */
+  .navbar a:hover{
+    transition-duration: .4s;
+    transition-timing-function: linear;
+    background-color: white;
+    color: #1b1b1b;
+    border-radius: 5px;
+  }
+  
+  /* Active/current link */
+  .navbar a.active{
+    background-color:  #7c8191;
+    color: white;
+  }
+
+
+
+
+  select {
+    /* styling */
+    background-color: white;
+    border: thin solid blue;
+    border-radius: 5px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+    cursor: pointer;
+    /* reset */
+  
+    margin: 5px;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  select.round {
+    background-image:
+      linear-gradient(45deg, transparent 50%, gray 50%),
+      linear-gradient(135deg, gray 50%, transparent 50%),
+      radial-gradient(#ddd 70%, transparent 72%);
+    background-position:
+      calc(100% - 20px) calc(1em + 2px),
+      calc(100% - 15px) calc(1em + 2px),
+      calc(100% - .5em) .5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1.5em 1.5em;
+    background-repeat: no-repeat;
+  }
+  
+  select.round:focus {
+    background-image:
+      linear-gradient(45deg, white 50%, transparent 50%),
+      linear-gradient(135deg, transparent 50%, white 50%),
+      radial-gradient(gray 70%, transparent 72%);
+    background-position:
+      calc(100% - 15px) 1em,
+      calc(100% - 20px) 1em,
+      calc(100% - .5em) .5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1.5em 1.5em;
+    background-repeat: no-repeat;
+    border-color: green;
+    outline: 0;
+  }
+ 
+input{
+  background-color: white;
+    border: thin solid blue;
+    border-radius: 5px;
+    text-align: center;
+    font: inherit;
+    cursor: pointer;
+    padding: 12px 22px;
+    text-decoration: none;
+    margin: 2px ;
+    font-size: 14px;
+}
+
+fieldset {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  font: inherit;
+}
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+input {
+  margin: 5px;
+}
+
+
+/* On mouse-over, add a grey background color */
+.containerCB:hover input ~ .checkmarkCB {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containerCB input:checked ~ .checkmarkCB {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmarkCB:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.containerCB input:checked ~ .checkmarkCB:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.containerCB .checkmarkCB:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+ 
+ 
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #004d66;
+}
+
+footer p {
+    color:whitesmoke;
+    font-size: 15px;
+    font-family: inherit;
+    text-align: center;
+}
+

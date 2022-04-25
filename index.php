@@ -1,5 +1,10 @@
 <?php
 
+  <!--Lisboa Claudia
+     HarveyScrabble_PHP
+     For studding proposes -->
+
+
   function redirectionerMerci(){
     header("Location: merci.html");
     exit;

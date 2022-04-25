@@ -1,10 +1,4 @@
 <?php
-
-  <!--Lisboa Claudia
-     HarveyScrabble_PHP
-     For studding proposes -->
-
-
   function redirectionerMerci(){
     header("Location: merci.html");
     exit;
@@ -14,6 +8,12 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+  
+   <!--Lisboa Claudia
+     HarveyScrabble_PHP
+     For studding proposes -->
+  
+  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

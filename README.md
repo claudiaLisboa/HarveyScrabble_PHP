@@ -1,5 +1,5 @@
 # HarveyScrabble_PHP
 
- <!--Lisboa Claudia
+     Lisboa Claudia
      HarveyScrabble_PHP
-     For studding proposes -->
+     For studding proposes 

@@ -1,4 +1,6 @@
-# Scrabble PHP
+# Conception et programmation de sites Web
+
+## Scrabble PHP
  
      Lisboa Claudia
      Scrabble 
